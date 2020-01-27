@@ -1,8 +1,8 @@
 .header {
     height: 450px;
     width: 100%;
-    background: #fff ;
-    position: relative;
+    background: #BB92A4;
+    position: absolute;
 }
 
 .header__texture {
@@ -13,10 +13,10 @@
     background: url('../img/fumee2.jpg') center no-repeat;
     background-size: cover;
     z-index: 1;
-    opacity: 0.9;
-    -moz-border-radius:5px 5px 80px 80px;
-    -webkit-border-radius:5px 5px 80px 80px;
-    border-radius: 5px 5px 80px 80px;
+    opacity: 0.7;
+    -webkit-border-radius: 0px 0px 350px 350px / 0 0 50px 50px;
+    -moz-border-radius:    0px 0px 350px 350px / 0 0 50px 50px;
+    border-radius:         0px 0px 350px 350px / 0 0 50px 50px;
 }
 
 
