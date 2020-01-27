@@ -1,0 +1,42 @@
+.header {
+    height: 450px;
+    width: 100%;
+    background: #fff ;
+    position: relative;
+}
+
+.header__texture {
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    background: url('../img/fumee2.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.9;
+    -moz-border-radius:5px 5px 80px 80px;
+    -webkit-border-radius:5px 5px 80px 80px;
+    border-radius: 5px 5px 80px 80px;
+}
+
+
+.header__navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar__logo_title {
+    color: blanchedalmond;
+    font-size: 30px;    
+
+}
+
+.header__navbar__menu_link {
+    margin-left: 40px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
